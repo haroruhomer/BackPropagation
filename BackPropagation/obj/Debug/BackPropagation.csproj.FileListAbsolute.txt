@@ -1,0 +1,9 @@
+D:\Github\BackPropagation\BackPropagation\bin\Debug\BackPropagation.exe.config
+D:\Github\BackPropagation\BackPropagation\bin\Debug\BackPropagation.exe
+D:\Github\BackPropagation\BackPropagation\bin\Debug\BackPropagation.pdb
+D:\Github\BackPropagation\BackPropagation\obj\Debug\BackPropagation.csprojResolveAssemblyReference.cache
+D:\Github\BackPropagation\BackPropagation\obj\Debug\BackPropagation.Form1.resources
+D:\Github\BackPropagation\BackPropagation\obj\Debug\BackPropagation.Properties.Resources.resources
+D:\Github\BackPropagation\BackPropagation\obj\Debug\BackPropagation.csproj.GenerateResource.Cache
+D:\Github\BackPropagation\BackPropagation\obj\Debug\BackPropagation.exe
+D:\Github\BackPropagation\BackPropagation\obj\Debug\BackPropagation.pdb
