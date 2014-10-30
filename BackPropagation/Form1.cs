@@ -5,6 +5,7 @@ namespace BackPropagation
 {
     public partial class Form1 : Form
     {
+        
         double[] x=new double[2] {0.5,0.8};
         double[] y=new double[2] {0.4,0.6};
         double[,] wH = new double[2,2] {{0.01,0.01},
@@ -51,6 +52,7 @@ namespace BackPropagation
 
         private void B_entrenar_Click(object sender, EventArgs e)
         {
+            int iteraciones = 0;
             do
             {
                 for (int i = 0; i < 2; i++)
@@ -100,9 +102,10 @@ namespace BackPropagation
                     wH[n, 1] = wH[n, 1] + (alfa * (deltaH[n, 1] * x[1]));
                     wH[n, 1] = beta * (wH[n, 1] * wHAnt[n, 1]);
                 }
-                errorG = 1 / 2 * (Math.Pow(neuronasO[0].delta, 2) + Math.Pow(neuronasO[1].delta, 2));
-
-            } while (errorG != 0);
+                errorG = (1.0 / 2.0) * (Math.Pow(neuronasO[0].delta, 2) + Math.Pow(neuronasO[1].delta, 2));
+                iteraciones++;
+                Console.WriteLine(iteraciones);
+            } while (errorG != 0 && iteraciones<=10);
         }
 
         private double Sumatoria()
